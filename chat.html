@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat-Bot</title>
+    <link rel="stylesheet" href="chat.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+    <div class="container">
+
+
+        <div class="header">
+            <span class="material-symbols-rounded bot">
+                local_cafe
+            </span>
+            <h2>Chat-Bot</h2>
+            <button class="material-symbols-rounded downKey">
+                keyboard_arrow_down
+            </button>
+        </div>
+
+
+        <div class="content">
+            <div class="bot-content">
+                <span class="material-symbols-rounded tBot">
+                    local_cafe
+                </span>
+                <p class="bot-text">Hey there👋, How can I help you?</p>
+            </div>
+            <div class="user-content">
+            </div>
+            <div class="image_content">
+            </div>
+        </div>
+
+
+        <div class="footer">
+            <input type="text" placeholder="How may i help you?" class="inputField">
+            <div class="setting">
+                <div class="upload-file">
+                    <input type="file" accept="images/*" class="fileUpload" hidden>
+                    <button class="material-symbols-rounded file">
+                        attach_file_add
+                    </button>
+                </div>
+           
+                <button class="material-symbols-rounded submit">
+                    send
+                </button>
+
+            </div>
+          
+        </div>
+
+
+    </div>
+
+    <script src="chat.js"></script>
+</body>
+
+</html>
