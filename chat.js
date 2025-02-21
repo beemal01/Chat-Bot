@@ -8,7 +8,7 @@ let bot_content = document.querySelector(".bot-content");
 let fileUpload = document.querySelector(".fileUpload");
 let fileButton = document.querySelector(".file");
 
-API_KEY = "AIzaSyCNzESVLJhip_aCsrzDPTcEjqaJdPPrfjY";
+API_KEY = "{Your_API_KEY}";
 API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${API_KEY}`;
 
 const userMsg = {
