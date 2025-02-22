@@ -131,8 +131,10 @@ h2{
     border-radius: 25px;
     border: 1px solid rgb(97, 97, 97);
     padding-left: 27px;
+    padding-right: 73px;
     font-size: 17px;
     word-wrap: break-word;
+    overflow-y: auto;
 
 }
 
